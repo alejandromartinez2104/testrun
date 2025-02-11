@@ -23,7 +23,7 @@ function checkMessage() {
 
   if (today === 11) {
     message =
-      "I am no poet by any means. But if I were one, you'd be my daily muse to inspire me to make poems almost as beautiful as you."
+      "To me, you are perfect (Yes. YOU!)."
   } else if (today === 12) {
     message = "Words can't describe my love for you so I made you this website."
   } else if (today === 13) {
