@@ -84,12 +84,13 @@ body {
 }
 
 .cat {
-  position: absolute;
-  top: 0;
-  right: 50%;
-  width: 50%;
-  height: 100px;
-  overflow: hidden;
+    position: absolute;
+    top: -40px; /* Moves it up to sit on the top edge */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px; /* Adjust size */
+    height: auto;
+    z-index: 10; /* Ensures it's above the message box */
 }
 
 .cat img {
