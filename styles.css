@@ -85,10 +85,10 @@ body {
 
 .cat {
     position: absolute;
-    top: -30px; /* Moves it up so it still sits on top */
+    top: -40px; /* Moves it up so it still sits on top */
     left: 50%;
     transform: translateX(-50%);
-    width: 100%; /* Increased size */
+    width: 150px; /* Increased size */
     height: auto;
     z-index: 10;
 }
