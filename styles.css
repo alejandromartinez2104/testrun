@@ -85,7 +85,7 @@ body {
 
 .cat {
     position: absolute;
-    top: -1px; /* Moves it up so it still sits on top */
+    top: 20px; /* Moves it up so it still sits on top */
     left: 50%;
     transform: translateX(-50%);
     width: 150px; /* Increased size */
