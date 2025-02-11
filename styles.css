@@ -88,7 +88,7 @@ body {
     top: -50px; /* Moves it up so it still sits on top */
     left: 50%;
     transform: translateX(-50%);
-    width: 120px; /* Increased size */
+    width: 100%; /* Increased size */
     height: auto;
     z-index: 10;
 }
