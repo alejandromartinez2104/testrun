@@ -85,12 +85,12 @@ body {
 
 .cat {
     position: absolute;
-    top: -40px; /* Moves it up to sit on the top edge */
+    top: -50px; /* Moves it up so it still sits on top */
     left: 50%;
     transform: translateX(-50%);
-    width: 80px; /* Adjust size */
+    width: 120px; /* Increased size */
     height: auto;
-    z-index: 10; /* Ensures it's above the message box */
+    z-index: 10;
 }
 
 .cat img {
