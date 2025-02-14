@@ -30,7 +30,7 @@ function checkMessage() {
     message = "Right from the start, you stole my heart."
   } else if (today === 14) {
     message =
-      "HAPPY VALENTINE'S DAY Dweety. I'm so lucky to have you as my valentine this and every other year of my life. I have something else I made for you."
+      "HAPPY VALENTINE'S DAY Dweety. I'm so lucky to have you as my valentine this and every other year of my life. I Love You"
   } else {
     document.getElementById("envelope").setAttribute("onclick", "alert('Be patient Dweety')")
     return
