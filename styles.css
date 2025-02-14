@@ -29,13 +29,28 @@ body {
 }
 
 #envelope {
-  width: 150px;
-  height: 100px;
+  width: 200px; /* Increased size */
+  height: 150px; /* Increased size */
   background: white;
   border-radius: 10px;
   position: relative;
   cursor: pointer;
   animation: growIn 1s ease-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Envelope flap design */
+#envelope::before {
+  content: '';
+  position: absolute;
+  top: -50px; /* Adjust this value to control the height of the flap */
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent; /* Half of the envelope width */
+  border-right: 100px solid transparent; /* Half of the envelope width */
+  border-bottom: 50px solid white; /* Height of the flap */
+  z-index: 1; /* Ensure the flap is behind the heart */
 }
 
 @keyframes growIn {
@@ -53,6 +68,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
+  z-index: 2; /* Ensure the heart is above the flap */
 }
 
 .message-box {
@@ -116,4 +132,3 @@ footer {
   font-size: 12px;
   color: #8b0046;
 }
-
