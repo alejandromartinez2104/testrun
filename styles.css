@@ -38,26 +38,6 @@ body {
   animation: growIn 1s ease-out;
 }
 
-#line {
-  position: absolute;
-  top: 0;
-  width: 2px; /* Adjust the thickness of the lines */
-  height: 100%; /* Ensure the line stretches down the container */
-  background-color: black; /* Color of the lines */
-}
-
-.line-left {
-  left: 0;
-  /* Clip path or adjust as needed to create the aesthetic look */
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-}
-
-.line-right {
-  right: 0;
-  /* Clip path or adjust as needed to create the aesthetic look */
-  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
-}
-
 @keyframes growIn {
   from {
     transform: scale(0);
